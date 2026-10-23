@@ -1,0 +1,33 @@
+# Once a day, copy the canon from Canon Bench. Commits only when it changed.
+name: Update the canon
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Fetch
+        run: |
+          curl -fsS -H "Authorization: Bearer ${{ secrets.CANON_TOKEN }}" "${{ vars.CANON_URL }}" -o canon.new.json
+      - name: Render and commit
+        run: |
+          message=$(node scripts/update.mjs canon.new.json)
+          if git diff --quiet; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "canonbench"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "$message"
+          git push
