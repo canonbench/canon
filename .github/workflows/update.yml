@@ -27,12 +27,12 @@ jobs:
       - name: Render and commit
         run: |
           message=$(node scripts/update.mjs canon.new.json)
-          if git diff --quiet; then
+          git add -A
+          if git diff --cached --quiet; then
             echo "No change."
             exit 0
           fi
           git config user.name "canonbench"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
           git commit -m "$message"
           git push
