@@ -1,6 +1,6 @@
 # Canon Bench: the open canon
 
-[Canon Bench](https://organic-human-benchmark.vercel.app) is a general-knowledge game where players decide what's worth knowing. Every player has a budget of points to put on the questions they think everyone should know. A question's **weight** is the team's starting weight plus everyone's points.
+[Canon Bench](https://organic-human-benchmark.vercel.app) is a general-knowledge platform where players decide what's worth knowing. Every player has a budget of points to put on the questions they think everyone should know. A question's **weight** is the team's starting weight plus everyone's points.
 
 The **canon** is the heaviest questions that together hold 95% of all weight. Those are the questions drawn in rooms and training. Below the line, a question isn't played.
 
@@ -37,4 +37,4 @@ This repo is a copy of the canon, updated once a day when it changed. The git hi
 
 ## Licence
 
-The questions, answers and weights are under [CC BY 4.0](LICENSE): use them for anything, crediting Canon Bench.
+The questions, answers and weights are under [CC BY 4.0](LICENSE): use them for anything, crediting the authors.
