@@ -30,7 +30,7 @@
       "prompt": "In what year did World War II end?",
       "asOf": null,
       "image": "/q/ww2-end.jpg",
-      "imageCredit": "Public domain, via Wikimedia Commons",
+      "imageCredit": "Lt. Stephen E. Korpanty, the Japanese surrender",
       "type": "number",
       "max": 2025,
       "min": 1800,
@@ -194,7 +194,7 @@
       "prompt": "In what year did World War I begin?",
       "asOf": null,
       "image": "/q/ww1-start.jpg",
-      "imageCredit": "Public domain, via Wikimedia Commons",
+      "imageCredit": "Achille Beltrame, La Domenica del Corriere",
       "type": "number",
       "max": 2025,
       "min": 1800,
@@ -208,26 +208,6 @@
     },
     {
       "rank": 11,
-      "weight": 80,
-      "id": "compound-interest",
-      "field": "Economics",
-      "prompt": "You put 1,000 in a savings account at 5% a year and leave the interest in. Roughly how much is there after 30 years?",
-      "asOf": null,
-      "image": null,
-      "imageCredit": null,
-      "type": "number",
-      "max": 11000,
-      "min": 1000,
-      "step": 10,
-      "unit": "",
-      "scale": "linear",
-      "answer": 4322,
-      "zeroAt": 1000,
-      "explanation": "1,000 × 1.05³⁰ ≈ 4,322: interest earns interest. Simple interest would give 2,500. Over 60 years the gap becomes the larger part: about 18,680 against 4,000.",
-      "url": "https://organic-human-benchmark.vercel.app/q/compound-interest"
-    },
-    {
-      "rank": 12,
       "weight": 80,
       "id": "largest-population",
       "field": "Geography",
@@ -250,7 +230,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/largest-population"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "weight": 80,
       "id": "seasons-cause",
       "field": "Earth science",
@@ -273,7 +253,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/seasons-cause"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "weight": 75,
       "id": "base-rate",
       "field": "Mathematics",
@@ -296,14 +276,14 @@
       "url": "https://organic-human-benchmark.vercel.app/q/base-rate"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "weight": 75,
       "id": "columbus",
       "field": "History",
       "prompt": "In what year did Columbus first reach the Americas?",
       "asOf": null,
       "image": "/q/columbus.jpg",
-      "imageCredit": "Public domain, via Wikimedia Commons",
+      "imageCredit": "John Vanderlyn, Landing of Columbus",
       "type": "number",
       "max": 1800,
       "min": 1000,
@@ -316,14 +296,14 @@
       "url": "https://organic-human-benchmark.vercel.app/q/columbus"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "weight": 75,
       "id": "french-revolution",
       "field": "History",
       "prompt": "In what year did the French Revolution begin, with the storming of the Bastille?",
       "asOf": null,
       "image": "/q/french-revolution.jpg",
-      "imageCredit": "Public domain, via Wikimedia Commons",
+      "imageCredit": "Storming of the Bastille",
       "type": "number",
       "max": 1900,
       "min": 1500,
@@ -336,7 +316,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/french-revolution"
     },
     {
-      "rank": 17,
+      "rank": 16,
       "weight": 75,
       "id": "homo-sapiens",
       "field": "Anthropology",
@@ -356,7 +336,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/homo-sapiens"
     },
     {
-      "rank": 18,
+      "rank": 17,
       "weight": 75,
       "id": "printing-press",
       "field": "History",
@@ -376,7 +356,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/printing-press"
     },
     {
-      "rank": 19,
+      "rank": 18,
       "weight": 75,
       "id": "rates-inflation",
       "field": "Economics",
@@ -399,7 +379,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/rates-inflation"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "weight": 75,
       "id": "universe-age",
       "field": "Astronomy",
@@ -419,7 +399,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/universe-age"
     },
     {
-      "rank": 21,
+      "rank": 20,
       "weight": 70,
       "id": "berlin-wall",
       "field": "History",
@@ -439,7 +419,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/berlin-wall"
     },
     {
-      "rank": 22,
+      "rank": 21,
       "weight": 70,
       "id": "confucius",
       "field": "Philosophy",
@@ -457,7 +437,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/confucius"
     },
     {
-      "rank": 23,
+      "rank": 22,
       "weight": 70,
       "id": "emc2",
       "field": "Physics",
@@ -480,7 +460,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/emc2"
     },
     {
-      "rank": 24,
+      "rank": 23,
       "weight": 70,
       "id": "largest-religion",
       "field": "Religion",
@@ -503,7 +483,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/largest-religion"
     },
     {
-      "rank": 25,
+      "rank": 24,
       "weight": 70,
       "id": "leading-death",
       "field": "Medicine",
@@ -526,7 +506,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/leading-death"
     },
     {
-      "rank": 26,
+      "rank": 25,
       "weight": 70,
       "id": "speed-of-light",
       "field": "Physics",
@@ -546,7 +526,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/speed-of-light"
     },
     {
-      "rank": 27,
+      "rank": 26,
       "weight": 65,
       "id": "doubling",
       "field": "Mathematics",
@@ -566,7 +546,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/doubling"
     },
     {
-      "rank": 28,
+      "rank": 27,
       "weight": 65,
       "id": "earth-orbit",
       "field": "Astronomy",
@@ -586,7 +566,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/earth-orbit"
     },
     {
-      "rank": 29,
+      "rank": 28,
       "weight": 65,
       "id": "india-independence",
       "field": "History",
@@ -606,7 +586,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/india-independence"
     },
     {
-      "rank": 30,
+      "rank": 29,
       "weight": 65,
       "id": "ocean-share",
       "field": "Geography",
@@ -626,7 +606,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/ocean-share"
     },
     {
-      "rank": 31,
+      "rank": 30,
       "weight": 65,
       "id": "plato",
       "field": "Philosophy",
@@ -644,7 +624,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/plato"
     },
     {
-      "rank": 32,
+      "rank": 31,
       "weight": 65,
       "id": "smallpox",
       "field": "Medicine",
@@ -662,7 +642,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/smallpox"
     },
     {
-      "rank": 33,
+      "rank": 32,
       "weight": 65,
       "id": "ussr-end",
       "field": "History",
@@ -682,7 +662,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/ussr-end"
     },
     {
-      "rank": 34,
+      "rank": 33,
       "weight": 65,
       "id": "writing-sumer",
       "field": "History",
@@ -705,7 +685,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/writing-sumer"
     },
     {
-      "rank": 35,
+      "rank": 34,
       "weight": 65,
       "id": "www",
       "field": "Technology",
@@ -725,14 +705,14 @@
       "url": "https://organic-human-benchmark.vercel.app/q/www"
     },
     {
-      "rank": 36,
+      "rank": 35,
       "weight": 60,
       "id": "first-flight",
       "field": "Technology",
       "prompt": "Who made the first powered aeroplane flight, in 1903?",
       "asOf": null,
       "image": "/q/first-flight.jpg",
-      "imageCredit": "Public domain, via Wikimedia Commons",
+      "imageCredit": "John T. Daniels",
       "type": "gap",
       "prefix": "The",
       "suffix": "brothers",
@@ -743,7 +723,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/first-flight"
     },
     {
-      "rank": 37,
+      "rank": 36,
       "weight": 60,
       "id": "hamlet",
       "field": "Literature",
@@ -761,7 +741,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/hamlet"
     },
     {
-      "rank": 38,
+      "rank": 37,
       "weight": 60,
       "id": "internet-users",
       "field": "Technology",
@@ -781,14 +761,14 @@
       "url": "https://organic-human-benchmark.vercel.app/q/internet-users"
     },
     {
-      "rank": 39,
+      "rank": 38,
       "weight": 60,
       "id": "moon-landing",
       "field": "History",
       "prompt": "Who was the first person to walk on the Moon?",
       "asOf": null,
       "image": "/q/moon-landing.jpg",
-      "imageCredit": "NASA · Public domain, via Wikimedia Commons",
+      "imageCredit": "A Man on the Moon · NASA",
       "type": "gap",
       "prefix": null,
       "suffix": null,
@@ -799,7 +779,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/moon-landing"
     },
     {
-      "rank": 40,
+      "rank": 39,
       "weight": 60,
       "id": "nitrogen",
       "field": "Earth science",
@@ -817,7 +797,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/nitrogen"
     },
     {
-      "rank": 41,
+      "rank": 40,
       "weight": 60,
       "id": "penicillin",
       "field": "Medicine",
@@ -835,7 +815,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/penicillin"
     },
     {
-      "rank": 42,
+      "rank": 41,
       "weight": 60,
       "id": "rome-fall",
       "field": "History",
@@ -855,7 +835,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/rome-fall"
     },
     {
-      "rank": 43,
+      "rank": 42,
       "weight": 60,
       "id": "separation-of-powers",
       "field": "Politics",
@@ -878,14 +858,14 @@
       "url": "https://organic-human-benchmark.vercel.app/q/separation-of-powers"
     },
     {
-      "rank": 44,
+      "rank": 43,
       "weight": 60,
       "id": "slave-trade",
       "field": "History",
       "prompt": "Roughly how many enslaved Africans were shipped across the Atlantic, from the 1500s to the 1860s?",
       "asOf": null,
       "image": "/q/slave-trade.jpg",
-      "imageCredit": "Public domain, via Wikimedia Commons",
+      "imageCredit": "Society for Effecting the Abolition of the Slave Trade, Stowage of the British slave ship Brookes",
       "type": "number",
       "max": 1000000000,
       "min": 10000,
@@ -898,7 +878,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/slave-trade"
     },
     {
-      "rank": 45,
+      "rank": 44,
       "weight": 60,
       "id": "up-down-50",
       "field": "Mathematics",
@@ -921,7 +901,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/up-down-50"
     },
     {
-      "rank": 46,
+      "rank": 45,
       "weight": 55,
       "id": "largest-economy",
       "field": "Economics",
@@ -944,7 +924,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/largest-economy"
     },
     {
-      "rank": 47,
+      "rank": 46,
       "weight": 55,
       "id": "mitochondria",
       "field": "Biology",
@@ -967,7 +947,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/mitochondria"
     },
     {
-      "rank": 48,
+      "rank": 47,
       "weight": 55,
       "id": "security-council",
       "field": "Politics",
@@ -998,7 +978,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/security-council"
     },
     {
-      "rank": 49,
+      "rank": 48,
       "weight": 55,
       "id": "steam-engine",
       "field": "Technology",
@@ -1016,7 +996,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/steam-engine"
     },
     {
-      "rank": 50,
+      "rank": 49,
       "weight": 50,
       "id": "homer",
       "field": "Literature",
@@ -1034,7 +1014,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/homer"
     },
     {
-      "rank": 51,
+      "rank": 50,
       "weight": 50,
       "id": "native-speakers",
       "field": "Language",
@@ -1057,7 +1037,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/native-speakers"
     },
     {
-      "rank": 52,
+      "rank": 51,
       "weight": 50,
       "id": "tides",
       "field": "Earth science",
@@ -1080,7 +1060,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/tides"
     },
     {
-      "rank": 53,
+      "rank": 52,
       "weight": 50,
       "id": "tree-mass",
       "field": "Biology",
@@ -1103,7 +1083,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/tree-mass"
     },
     {
-      "rank": 54,
+      "rank": 53,
       "weight": 45,
       "id": "abundant-element",
       "field": "Chemistry",
@@ -1126,7 +1106,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/abundant-element"
     },
     {
-      "rank": 55,
+      "rank": 54,
       "weight": 45,
       "id": "chromosomes",
       "field": "Biology",
@@ -1146,7 +1126,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/chromosomes"
     },
     {
-      "rank": 56,
+      "rank": 55,
       "weight": 45,
       "id": "cogito",
       "field": "Philosophy",
@@ -1164,7 +1144,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/cogito"
     },
     {
-      "rank": 57,
+      "rank": 56,
       "weight": 45,
       "id": "earth-core",
       "field": "Earth science",
@@ -1187,7 +1167,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/earth-core"
     },
     {
-      "rank": 58,
+      "rank": 57,
       "weight": 45,
       "id": "free-fall",
       "field": "Physics",
@@ -1207,7 +1187,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/free-fall"
     },
     {
-      "rank": 59,
+      "rank": 58,
       "weight": 45,
       "id": "largest-ocean",
       "field": "Geography",
@@ -1230,14 +1210,14 @@
       "url": "https://organic-human-benchmark.vercel.app/q/largest-ocean"
     },
     {
-      "rank": 60,
+      "rank": 59,
       "weight": 45,
       "id": "mona-lisa",
       "field": "Arts",
       "prompt": "Who painted the Mona Lisa?",
       "asOf": null,
       "image": "/q/mona-lisa.jpg",
-      "imageCredit": "Public domain, via Wikimedia Commons",
+      "imageCredit": null,
       "type": "mcq",
       "multi": false,
       "options": [
@@ -1253,7 +1233,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/mona-lisa"
     },
     {
-      "rank": 61,
+      "rank": 60,
       "weight": 45,
       "id": "mongol-empire",
       "field": "History",
@@ -1271,7 +1251,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/mongol-empire"
     },
     {
-      "rank": 62,
+      "rank": 61,
       "weight": 45,
       "id": "nucleus-mass",
       "field": "Physics",
@@ -1294,7 +1274,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/nucleus-mass"
     },
     {
-      "rank": 63,
+      "rank": 62,
       "weight": 45,
       "id": "rule-of-70",
       "field": "Economics",
@@ -1314,7 +1294,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/rule-of-70"
     },
     {
-      "rank": 64,
+      "rank": 63,
       "weight": 45,
       "id": "sunlight-time",
       "field": "Astronomy",
@@ -1334,7 +1314,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/sunlight-time"
     },
     {
-      "rank": 65,
+      "rank": 64,
       "weight": 45,
       "id": "wealth-of-nations",
       "field": "Economics",
@@ -1352,7 +1332,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/wealth-of-nations"
     },
     {
-      "rank": 66,
+      "rank": 65,
       "weight": 45,
       "id": "world-gdp",
       "field": "Economics",
@@ -1372,7 +1352,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/world-gdp"
     },
     {
-      "rank": 67,
+      "rank": 66,
       "weight": 40,
       "id": "absolute-zero",
       "field": "Physics",
@@ -1392,7 +1372,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/absolute-zero"
     },
     {
-      "rank": 68,
+      "rank": 67,
       "weight": 40,
       "id": "africa-countries",
       "field": "Geography",
@@ -1415,7 +1395,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/africa-countries"
     },
     {
-      "rank": 69,
+      "rank": 68,
       "weight": 40,
       "id": "hypotenuse",
       "field": "Mathematics",
@@ -1435,7 +1415,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/hypotenuse"
     },
     {
-      "rank": 70,
+      "rank": 69,
       "weight": 40,
       "id": "meiji",
       "field": "History",
@@ -1455,7 +1435,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/meiji"
     },
     {
-      "rank": 71,
+      "rank": 70,
       "weight": 40,
       "id": "moon-distance",
       "field": "Astronomy",
@@ -1475,7 +1455,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/moon-distance"
     },
     {
-      "rank": 72,
+      "rank": 71,
       "weight": 40,
       "id": "water-ph",
       "field": "Chemistry",
@@ -1495,7 +1475,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/water-ph"
     },
     {
-      "rank": 73,
+      "rank": 72,
       "weight": 35,
       "id": "everest",
       "field": "Geography",
@@ -1515,7 +1495,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/everest"
     },
     {
-      "rank": 74,
+      "rank": 73,
       "weight": 35,
       "id": "hijra",
       "field": "Religion",
@@ -1535,7 +1515,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/hijra"
     },
     {
-      "rank": 75,
+      "rank": 74,
       "weight": 35,
       "id": "nearest-star",
       "field": "Astronomy",
@@ -1555,7 +1535,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/nearest-star"
     },
     {
-      "rank": 76,
+      "rank": 75,
       "weight": 35,
       "id": "sky-blue",
       "field": "Physics",
@@ -1578,7 +1558,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/sky-blue"
     },
     {
-      "rank": 77,
+      "rank": 76,
       "weight": 35,
       "id": "women-vote",
       "field": "Politics",
@@ -1601,7 +1581,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/women-vote"
     },
     {
-      "rank": 78,
+      "rank": 77,
       "weight": 30,
       "id": "amazon",
       "field": "Geography",
@@ -1619,7 +1599,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/amazon"
     },
     {
-      "rank": 79,
+      "rank": 78,
       "weight": 30,
       "id": "beethoven",
       "field": "Arts",
@@ -1642,48 +1622,30 @@
       "url": "https://organic-human-benchmark.vercel.app/q/beethoven"
     },
     {
-      "rank": 80,
+      "rank": 79,
       "weight": 30,
       "id": "dice",
       "field": "Mathematics",
-      "prompt": "You roll a die four times. What is the chance of at least one six?",
+      "prompt": "You roll two dice. What is the chance of at least one six?",
       "asOf": null,
       "image": "/q/dice.svg",
       "imageCredit": null,
       "type": "mcq",
       "multi": false,
       "options": [
-        "About 33%",
-        "About 52%",
-        "About 67%",
-        "100%"
+        "12 in 36",
+        "11 in 36",
+        "10 in 36",
+        "6 in 36"
       ],
       "answer": [
         1
       ],
-      "explanation": "The chance of no six in four rolls is (5/6)⁴, about 48%; adding 4 × 1/6 overcounts. The Chevalier de Méré made money on this bet in the 1600s; his puzzles led Pascal and Fermat to found probability theory.",
+      "explanation": "The chance of no six is 5/6 × 5/6 = 25/36, so at least one six is 11/36. Adding 1/6 + 1/6 counts the double six twice; 10 in 36 is exactly one six. Dice bets like this puzzled the Chevalier de Méré in the 1600s; his questions led Pascal and Fermat to found probability theory.",
       "url": "https://organic-human-benchmark.vercel.app/q/dice"
     },
     {
       "rank": 81,
-      "weight": 30,
-      "id": "don-quixote",
-      "field": "Literature",
-      "prompt": "Who wrote Don Quixote?",
-      "asOf": null,
-      "image": "/q/don-quixote.jpg",
-      "imageCredit": "Public domain, via Wikimedia Commons",
-      "type": "gap",
-      "prefix": null,
-      "suffix": null,
-      "pattern": "_________",
-      "answer": "CERVANTES",
-      "zeroAt": 3,
-      "explanation": "Published in two parts, in 1605 and 1615, it is often called the first modern novel: an old gentleman who has read too many tales of chivalry sets out to live one. Its author and Shakespeare both died in April 1616.",
-      "url": "https://organic-human-benchmark.vercel.app/q/don-quixote"
-    },
-    {
-      "rank": 82,
       "weight": 30,
       "id": "eu-members",
       "field": "Politics",
@@ -1703,14 +1665,14 @@
       "url": "https://organic-human-benchmark.vercel.app/q/eu-members"
     },
     {
-      "rank": 83,
+      "rank": 82,
       "weight": 30,
       "id": "hastings",
       "field": "History",
       "prompt": "In what year was the Battle of Hastings?",
       "asOf": null,
       "image": "/q/hastings.jpg",
-      "imageCredit": "Public domain, via Wikimedia Commons",
+      "imageCredit": "Bayeux Tapestry",
       "type": "number",
       "max": 1600,
       "min": 500,
@@ -1723,7 +1685,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/hastings"
     },
     {
-      "rank": 84,
+      "rank": 83,
       "weight": 30,
       "id": "jupiter",
       "field": "Astronomy",
@@ -1741,7 +1703,30 @@
       "url": "https://organic-human-benchmark.vercel.app/q/jupiter"
     },
     {
-      "rank": 86,
+      "rank": 84,
+      "weight": 30,
+      "id": "language-family",
+      "field": "Language",
+      "prompt": "Which of these languages is not in the same family as English?",
+      "asOf": null,
+      "image": null,
+      "imageCredit": null,
+      "type": "mcq",
+      "multi": false,
+      "options": [
+        "Hindi",
+        "Persian",
+        "Finnish",
+        "Russian"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "English, Hindi, Persian and Russian are all Indo-European, the family of nearly half the world. Finnish, like Estonian and Hungarian, is Uralic. William Jones saw in 1786 that Sanskrit, Greek and Latin share roots too close for chance: pitar, patēr, pater.",
+      "url": "https://organic-human-benchmark.vercel.app/q/language-family"
+    },
+    {
+      "rank": 85,
       "weight": 30,
       "id": "sistine-ceiling",
       "field": "Arts",
@@ -1759,7 +1744,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/sistine-ceiling"
     },
     {
-      "rank": 87,
+      "rank": 86,
       "weight": 30,
       "id": "triangle-angles",
       "field": "Mathematics",
@@ -1779,7 +1764,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/triangle-angles"
     },
     {
-      "rank": 88,
+      "rank": 87,
       "weight": 30,
       "id": "un-members",
       "field": "Politics",
