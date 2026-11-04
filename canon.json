@@ -4,7 +4,7 @@
   "questions": [
     {
       "rank": 1,
-      "weight": 130,
+      "weight": 125,
       "id": "world-population",
       "field": "Geography",
       "prompt": "What is the world's population today?",
@@ -1582,6 +1582,26 @@
     },
     {
       "rank": 77,
+      "weight": 32,
+      "id": "hastings",
+      "field": "History",
+      "prompt": "In what year was the Battle of Hastings?",
+      "asOf": null,
+      "image": "/q/hastings.jpg",
+      "imageCredit": "Bayeux Tapestry",
+      "type": "number",
+      "max": 1600,
+      "min": 500,
+      "step": 1,
+      "unit": "year",
+      "scale": "linear",
+      "answer": 1066,
+      "zeroAt": 60,
+      "explanation": "William of Normandy defeated King Harold II, who died on the field, and was crowned on Christmas Day. Norman French reshaped English: beef, pork, court and justice all came in with it.",
+      "url": "https://organic-human-benchmark.vercel.app/q/hastings"
+    },
+    {
+      "rank": 78,
       "weight": 30,
       "id": "amazon",
       "field": "Geography",
@@ -1599,7 +1619,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/amazon"
     },
     {
-      "rank": 78,
+      "rank": 79,
       "weight": 30,
       "id": "beethoven",
       "field": "Arts",
@@ -1622,7 +1642,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/beethoven"
     },
     {
-      "rank": 79,
+      "rank": 80,
       "weight": 30,
       "id": "dice",
       "field": "Mathematics",
@@ -1645,7 +1665,7 @@
       "url": "https://organic-human-benchmark.vercel.app/q/dice"
     },
     {
-      "rank": 81,
+      "rank": 82,
       "weight": 30,
       "id": "eu-members",
       "field": "Politics",
@@ -1663,26 +1683,6 @@
       "zeroAt": 15,
       "explanation": "Six countries founded its forerunners in the 1950s: France, West Germany, Italy and the Benelux. Croatia joined last, in 2013. The United Kingdom left in 2020, the only member ever to do so.",
       "url": "https://organic-human-benchmark.vercel.app/q/eu-members"
-    },
-    {
-      "rank": 82,
-      "weight": 30,
-      "id": "hastings",
-      "field": "History",
-      "prompt": "In what year was the Battle of Hastings?",
-      "asOf": null,
-      "image": "/q/hastings.jpg",
-      "imageCredit": "Bayeux Tapestry",
-      "type": "number",
-      "max": 1600,
-      "min": 500,
-      "step": 1,
-      "unit": "year",
-      "scale": "linear",
-      "answer": 1066,
-      "zeroAt": 60,
-      "explanation": "William of Normandy defeated King Harold II, who died on the field, and was crowned on Christmas Day. Norman French reshaped English: beef, pork, court and justice all came in with it.",
-      "url": "https://organic-human-benchmark.vercel.app/q/hastings"
     },
     {
       "rank": 83,
@@ -1726,24 +1726,6 @@
       "url": "https://organic-human-benchmark.vercel.app/q/language-family"
     },
     {
-      "rank": 85,
-      "weight": 30,
-      "id": "sistine-ceiling",
-      "field": "Arts",
-      "prompt": "Who painted the ceiling of the Sistine Chapel?",
-      "asOf": null,
-      "image": "/q/sistine-ceiling.jpg",
-      "imageCredit": "Photo: Antoine Taveneaux · CC BY-SA 3.0, via Wikimedia Commons",
-      "type": "gap",
-      "prefix": null,
-      "suffix": null,
-      "pattern": "___________o",
-      "answer": "MICHELANGELO",
-      "zeroAt": 4,
-      "explanation": "Painted from 1508 to 1512 for Pope Julius II, standing on scaffolding, not lying on his back. He saw himself as a sculptor first, and had already carved the David. The Creation of Adam is one of its panels.",
-      "url": "https://organic-human-benchmark.vercel.app/q/sistine-ceiling"
-    },
-    {
       "rank": 86,
       "weight": 30,
       "id": "triangle-angles",
@@ -1782,6 +1764,24 @@
       "zeroAt": 100,
       "explanation": "51 countries founded it, at a conference in San Francisco. The newest member is South Sudan, in 2011. The Holy See and Palestine take part as non-member observer states.",
       "url": "https://organic-human-benchmark.vercel.app/q/un-members"
+    },
+    {
+      "rank": 88,
+      "weight": 30,
+      "id": "waterloo",
+      "field": "History",
+      "prompt": "Which battle ended Napoleon's rule for good in 1815?",
+      "asOf": null,
+      "image": "/q/waterloo.jpg",
+      "imageCredit": "William Sadler",
+      "type": "gap",
+      "prefix": "Battle of",
+      "suffix": null,
+      "pattern": "________",
+      "answer": "WATERLOO",
+      "zeroAt": 3,
+      "explanation": "Wellington and the Prussian Blücher beat him south of Brussels, ending the Hundred Days that began with his escape from Elba. He died in exile on Saint Helena in 1821.",
+      "url": "https://organic-human-benchmark.vercel.app/q/waterloo"
     }
   ]
 }

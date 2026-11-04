@@ -4,7 +4,7 @@ The top questions that together hold 95% of all weight on [Canon Bench](https://
 
 | # | Question | Answer | Field | Weight |
 |--:|---|---|---|--:|
-| 1 | [What is the world's population today?](https://organic-human-benchmark.vercel.app/q/world-population) | 8,300,000,000 people | Geography | 130 |
+| 1 | [What is the world's population today?](https://organic-human-benchmark.vercel.app/q/world-population) | 8,300,000,000 people | Geography | 125 |
 | 2 | [In what year did World War II end?](https://organic-human-benchmark.vercel.app/q/ww2-end) | 1,945 year | History | 100 |
 | 3 | [By how much has Earth warmed since pre-industrial times, in °C?](https://organic-human-benchmark.vercel.app/q/warming) | 1.4 °C | Earth science | 95 |
 | 4 | [Antibiotics work against which of these?](https://organic-human-benchmark.vercel.app/q/antibiotics) | Bacteria | Medicine | 90 |
@@ -80,13 +80,13 @@ The top questions that together hold 95% of all weight on [Canon Bench](https://
 | 74 | [How far is the nearest star after the Sun, in light-years?](https://organic-human-benchmark.vercel.app/q/nearest-star) | 4.24 light-years | Astronomy | 35 |
 | 75 | [Why is the daytime sky blue?](https://organic-human-benchmark.vercel.app/q/sky-blue) | Air scatters blue light more than red | Physics | 35 |
 | 76 | [Which was the first self-governing country to give all women the vote in national elections, in 1893?](https://organic-human-benchmark.vercel.app/q/women-vote) | New Zealand | Politics | 35 |
-| 77 | [Which river carries the most water to the sea?](https://organic-human-benchmark.vercel.app/q/amazon) | AMAZON | Geography | 30 |
-| 78 | [Who composed the Fifth Symphony that opens with “da-da-da-dum”?](https://organic-human-benchmark.vercel.app/q/beethoven) | Beethoven | Arts | 30 |
-| 79 | [You roll two dice. What is the chance of at least one six?](https://organic-human-benchmark.vercel.app/q/dice) | 11 in 36 | Mathematics | 30 |
-| 81 | [How many countries are in the European Union?](https://organic-human-benchmark.vercel.app/q/eu-members) | 27 countries | Politics | 30 |
-| 82 | [In what year was the Battle of Hastings?](https://organic-human-benchmark.vercel.app/q/hastings) | 1,066 year | History | 30 |
+| 77 | [In what year was the Battle of Hastings?](https://organic-human-benchmark.vercel.app/q/hastings) | 1,066 year | History | 32 |
+| 78 | [Which river carries the most water to the sea?](https://organic-human-benchmark.vercel.app/q/amazon) | AMAZON | Geography | 30 |
+| 79 | [Who composed the Fifth Symphony that opens with “da-da-da-dum”?](https://organic-human-benchmark.vercel.app/q/beethoven) | Beethoven | Arts | 30 |
+| 80 | [You roll two dice. What is the chance of at least one six?](https://organic-human-benchmark.vercel.app/q/dice) | 11 in 36 | Mathematics | 30 |
+| 82 | [How many countries are in the European Union?](https://organic-human-benchmark.vercel.app/q/eu-members) | 27 countries | Politics | 30 |
 | 83 | [What is the largest planet in the Solar System?](https://organic-human-benchmark.vercel.app/q/jupiter) | JUPITER | Astronomy | 30 |
 | 84 | [Which of these languages is not in the same family as English?](https://organic-human-benchmark.vercel.app/q/language-family) | Finnish | Language | 30 |
-| 85 | [Who painted the ceiling of the Sistine Chapel?](https://organic-human-benchmark.vercel.app/q/sistine-ceiling) | MICHELANGELO | Arts | 30 |
 | 86 | [What do the angles of a triangle add up to, in degrees?](https://organic-human-benchmark.vercel.app/q/triangle-angles) | 180 ° | Mathematics | 30 |
 | 87 | [How many member states does the United Nations have?](https://organic-human-benchmark.vercel.app/q/un-members) | 193 countries | Politics | 30 |
+| 88 | [Which battle ended Napoleon's rule for good in 1815?](https://organic-human-benchmark.vercel.app/q/waterloo) | WATERLOO | History | 30 |
